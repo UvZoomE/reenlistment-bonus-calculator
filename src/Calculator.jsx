@@ -9,7 +9,7 @@ import {
 } from "@mui/material";
 import { Link } from "react-router-dom";
 
-function App() {
+function Calculator() {
   const [bonus, setBonus] = useState(0);
   const [multiplier, setMultiplier] = useState(1);
   const [years, setYears] = useState(4);
@@ -45,7 +45,7 @@ function App() {
               inputProps={{ pattern: "\\d*(\\.\\d{0,2})?" }}
             />
           </Grid>
-          <Grid item xs={12}>
+          <Grid item xs={9}>
             <TextField
               fullWidth
               label="What is your SRB multiplier?"
@@ -53,6 +53,13 @@ function App() {
               value={multiplier}
               onChange={(e) => setMultiplier(e.target.value)}
             />
+          </Grid>
+          <Grid item xs={3}>
+            <Box sx={{ display: "flex", alignItems: "center" }}>
+              <Typography variant="caption">
+                <Link to="/srb-calculator">What's this?</Link>
+              </Typography>
+            </Box>
           </Grid>
 
           <Grid item xs={12}>
@@ -91,4 +98,4 @@ function App() {
   );
 }
 
-export default App;
+export default Calculator;

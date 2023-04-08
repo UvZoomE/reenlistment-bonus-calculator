@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
 import { Container, Box, Typography } from "@mui/material";
 import Calculator from "./Calculator";
 import FAQSection from "./FAQSection";
+import SRBCalculator from "./SRBCalculator";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Routes>
             <Route path="/faq" element={<FAQSection />} />
             <Route path="/" element={<Calculator />} />
+            <Route path="/srb-calculator" element={<SRBCalculator />} />
           </Routes>
         </Box>
       </Container>
