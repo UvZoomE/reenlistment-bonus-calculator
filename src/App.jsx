@@ -20,14 +20,6 @@ function App() {
           <Typography variant="h4" gutterBottom>
             Reenlistment Bonus Calculator
           </Typography>
-          <Typography
-            variant="body1"
-            gutterBottom
-            sx={{ mt: 2, color: "#666" }}
-          >
-            Reenlistment bonus calculator: Base pay * SRB Multiplier * # of
-            years you want to reenlist
-          </Typography>
           <Routes>
             <Route path="/faq" element={<FAQSection />} />
             <Route path="/" element={<Calculator />} />

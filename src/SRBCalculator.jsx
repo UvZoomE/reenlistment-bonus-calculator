@@ -72,6 +72,14 @@ function SRBCalculator() {
           mt: 4,
         }}
       >
+        <Typography
+            variant="body1"
+            gutterBottom
+            sx={{ mt: 2, color: "#666" }}
+          >
+            The SRB (Selective Reenlistment Bonus) multiplier is a factor used by the United States military to incentivize the retention of qualified and experienced personnel in critical and undermanned career fields. <br />
+            <br /><strong>Please fill out the information below to determine your SRB multiplier</strong>
+          </Typography>
         <Grid container spacing={2} sx={{ mt: 2 }}>
           <Grid item xs={12}>
             <TextField
@@ -155,7 +163,7 @@ function SRBCalculator() {
         )}
       </Box>
       <Box sx={{ mt: 2, display: "flex", justifyContent: "center" }}>
-        <Link to="/faq">FAQ</Link>
+        <Link to="/">Go back to calculator</Link>
       </Box>
     </Container>
   );

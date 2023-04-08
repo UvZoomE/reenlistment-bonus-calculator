@@ -55,6 +55,9 @@ const FAQSection = () => {
           <br />
           For other branches, contact your unit's career counselor or personnel
           office for more information on your specific SRB multiplier.
+          <br />
+          <br />
+          Or, simply use this <Link to="/srb-calculator">calculator</Link> to determine your SRB multiplier value! (Space Force only for now)
         </Typography>
 
         <Typography variant="h6" gutterBottom sx={{ mt: 3 }}>

@@ -34,6 +34,14 @@ function Calculator() {
           mt: 4,
         }}
       >
+        <Typography
+            variant="body1"
+            gutterBottom
+            sx={{ mt: 2, color: "#666" }}
+          >
+            Reenlistment bonus calculator: Base pay * SRB Multiplier * # of
+            years you want to reenlist
+          </Typography>
         <Grid container spacing={2} sx={{ mt: 2 }}>
           <Grid item xs={12}>
             <TextField
