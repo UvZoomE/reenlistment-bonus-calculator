@@ -20,8 +20,7 @@ const FAQSection = () => {
         <Typography>
           You can find your base pay by referring to the latest military pay
           chart, which is updated annually. Your base pay depends on your rank
-          and years of service. Check the official Department of Defense (DoD)
-          website for the most up-to-date information.
+          and years of service. Also, you can check your Leave and Earnings Statement (LES) which is available via myPay.
         </Typography>
 
         <Typography variant="h6" gutterBottom sx={{ mt: 3 }}>
